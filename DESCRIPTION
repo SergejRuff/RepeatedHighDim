@@ -11,6 +11,7 @@ Maintainer: Klaus Jung <klaus.jung@tiho-hannover.de>
 Description: A toolkit for the analysis of high-dimensional repeated measurements, providing functions 
     for outlier detection, differential expression analysis, gene-set tests, and binary random data generation.
 License: GPL (>= 3)
+URL: https://software.klausjung-lab.de
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.1
