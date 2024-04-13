@@ -76,8 +76,6 @@
 #' }
 #'
 #'
-#' @keywords bag gem outlier
-#' @docType package
 #' @name RepeatedHighDim
 #' @aliases RepeatedHighDim-package
 #'
@@ -104,5 +102,5 @@
 #' If you have any questions, suggestions, or issues, please feel free to contact the maintainer, Klaus Jung (\email{klaus.jung@tiho-hannover.de}).
 #'
 #'
-NULL
+"_PACKAGE"
 

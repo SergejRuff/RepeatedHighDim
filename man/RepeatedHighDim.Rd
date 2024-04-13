@@ -96,6 +96,3 @@ For more information, please refer to the package's documentation and the tutori
 
 If you have any questions, suggestions, or issues, please feel free to contact the maintainer, Klaus Jung (\email{klaus.jung@tiho-hannover.de}).
 }
-\keyword{bag}
-\keyword{gem}
-\keyword{outlier}
