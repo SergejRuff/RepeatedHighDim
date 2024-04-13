@@ -32,6 +32,8 @@
 #' Xt <- iter_matrix(X0, R = diag(10), T = 10000, e.min = 0.00001)
 #' GA_diagplot(R1, Rt = Xt$Rt, col.method = "trafficlight")
 #' GA_diagplot(R1, Rt = Xt$Rt, col.method = "updown")
+#' @seealso
+#'For more information, please refer to the package's documentation and the tutorial: \url{https://software.klausjung-lab.de/}.
 GA_diagplot <- function(R, Rt, eps=0.05, col.method="trafficlight", color=c(0, 8), top="") {
   rotate = function(x) t(apply(x, 2, rev))
   D = R - Rt

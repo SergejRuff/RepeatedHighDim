@@ -93,6 +93,8 @@
 #'# spheres3d(dm[1], dm[2], dm[3], col=yel, radius=0.1)
 #'# gem(B$coords, B$hull, blue)
 #'# gem(L$coords.loop, L$hull.loop, blue)
+#'@seealso
+#'For more information, please refer to the package's documentation and the tutorial: \url{https://software.klausjung-lab.de/}.
 loop <- function (D, B, inflation = 3, dm)
 {
   n <- dim(D)[1]

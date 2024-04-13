@@ -39,6 +39,8 @@
 #' ## Specification of the grid and calculation of the halfspace location depth at each grid location.
 #'# G <- gridfun(D1, grid.size=20)
 #'# G$H <- hldepth(D1, G, verbose=TRUE)
+#'@seealso
+#'For more information, please refer to the package's documentation and the tutorial: \url{https://software.klausjung-lab.de/}.
 hldepth = function (D, G, verbose = TRUE)
 {
   if (dim(D)[2]==3) {

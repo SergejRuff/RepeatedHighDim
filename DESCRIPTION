@@ -1,7 +1,7 @@
 Package: RepeatedHighDim
 Type: Package
 Title: Methods for High-Dimensional Repeated Measures Data
-Version: 2.2.0
+Version: 2.3.0
 Authors@R: 
     c(person("Klaus", "Jung", email = "klaus.jung@tiho-hannover.de", role = c("aut", "cre")),
     person("Jochen", "Kruppa", email = "j.kruppa@hs-osnabrueck.de", role = "aut"),
@@ -21,10 +21,13 @@ Imports:
     grDevices,
     MASS,
     mvtnorm,
+    netmeta,
     nlme,
+    progress,
     rgl,
     stats,
     utils
 Suggests: 
     BiocManager,
+    invgamma,
     limma

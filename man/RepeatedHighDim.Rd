@@ -59,6 +59,12 @@ This package includes the following functions:
   \item \code{\link{loop}}: Calculates the fence and the loop.
 }
 
+
+\strong{N}:
+\itemize{
+  \item \code{\link{netRNA}}: network meta-analysis using gene expression data.
+}
+
 \strong{R}:
 \itemize{
   \item \code{\link{RHighDim}}: Detects global group effects.

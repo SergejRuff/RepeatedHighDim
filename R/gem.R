@@ -102,6 +102,8 @@
 #'# L = loop(D, B, dm=dm)
 #'# which(L$outliers==1)
 #'# date()
+#'@seealso
+#'For more information, please refer to the package's documentation and the tutorial: \url{https://software.klausjung-lab.de/}.
 gem <- function (coords, hull, clr)
 {
   for (i in 1:dim(hull)[1]) {

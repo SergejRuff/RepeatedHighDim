@@ -31,6 +31,8 @@
 #'# G <- gridfun(D1, grid.size=20)
 #'# G$H <- hldepth(D1, G, verbose=TRUE)
 #'# dm <- depmed(G) ## Calculation of the depth median
+#'@seealso
+#'For more information, please refer to the package's documentation and the tutorial: \url{https://software.klausjung-lab.de/}.
 depmed = function (G)
 {
   if (length(G$grid.k)==0) {

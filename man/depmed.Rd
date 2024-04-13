@@ -45,6 +45,9 @@ Rousseeuw, P. J., Ruts, I., & Tukey, J. W. (1999). The
     bagplot: a bivariate boxplot. The American Statistician,
     53(4), 382-387.
 }
+\seealso{
+For more information, please refer to the package's documentation and the tutorial: \url{https://software.klausjung-lab.de/}.
+}
 \author{
 Jochen Kruppa, Klaus Jung
 }

@@ -112,6 +112,9 @@ Rousseeuw, P. J., Ruts, I., & Tukey, J. W. (1999). The bagplot: a bivariate boxp
 
 Kruppa, J., & Jung, K. (2017). Automated multigroup outlier identification in molecular high-throughput data using bagplots and gemplots. \emph{BMC bioinformatics}, \strong{18(1)}, 1-10. \url{https://link.springer.com/article/10.1186/s12859-017-1645-5}
 }
+\seealso{
+For more information, please refer to the package's documentation and the tutorial: \url{https://software.klausjung-lab.de/}.
+}
 \author{
 Jochen Kruppa, Klaus Jung
 }
