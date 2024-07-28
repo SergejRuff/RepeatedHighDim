@@ -35,7 +35,8 @@
 #' @export
 #' @examples
 #'
-#'#######################
+#'\dontrun{
+#' #'#######################
 #'### Data generation ###
 #'#######################
 #'n = 100 ### Sample size per group
@@ -112,10 +113,10 @@
 #'TEs <- list(fc.S1, fc.S2)
 #'seTEs <- list(fce.S1, fce.S2)
 #'}
-#' \dontrun{
-#' # Example usage:
-#' test <- netRNA(TE = TEs, seTE = seTEs, treat1 = treat1, treat2 = treat2, studlab = studlab)
-#' }
+#'
+#'# Example usage:
+#'test <- netRNA(TE = TEs, seTE = seTEs, treat1 = treat1, treat2 = treat2, studlab = studlab)
+#'}
 #'@seealso
 #'For more information, please refer to the package's documentation and the tutorial: \url{https://software.klausjung-lab.de/}.
 netRNA <- function(TE, seTE, treat1, treat2, studlab) {

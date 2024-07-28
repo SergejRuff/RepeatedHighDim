@@ -35,7 +35,8 @@ the function calculates the fold changes for the indirect comparison between the
 }
 \examples{
 
-#######################
+\dontrun{
+#'#######################
 ### Data generation ###
 #######################
 n = 100 ### Sample size per group
@@ -112,7 +113,7 @@ fc.true = beta.2 - beta.1
 TEs <- list(fc.S1, fc.S2)
 seTEs <- list(fce.S1, fce.S2)
 }
-\dontrun{
+
 # Example usage:
 test <- netRNA(TE = TEs, seTE = seTEs, treat1 = treat1, treat2 = treat2, studlab = studlab)
 }
