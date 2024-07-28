@@ -75,11 +75,6 @@
 #'   \item \code{\link{summary_RHD}}: Provides a summary of the RHighDim function.
 #' }
 #'
-#' \strong{T}:
-#' \itemize{
-#'   \item \code{\link{TestStatSimple}}: Calculates the test statistic for RHighDim.
-#'   \item \code{\link{TestStatSP}}: Calculates the test statistic for RHighDim.
-#' }
 #'
 #'
 #' @name RepeatedHighDim

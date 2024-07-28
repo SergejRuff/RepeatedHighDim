@@ -79,12 +79,6 @@ This package includes the following functions:
   \item \code{\link{start_matrix}}: Sets up the start matrix.
   \item \code{\link{summary_RHD}}: Provides a summary of the RHighDim function.
 }
-
-\strong{T}:
-\itemize{
-  \item \code{\link{TestStatSimple}}: Calculates the test statistic for RHighDim.
-  \item \code{\link{TestStatSP}}: Calculates the test statistic for RHighDim.
-}
 }
 
 \seealso{
