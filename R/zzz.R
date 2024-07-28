@@ -1,0 +1,35 @@
+.onAttach <- function(libname, pkgname) {
+  packageStartupMessage(
+    "\nWelcome to\n",
+  "         ____                       _           _
+        |  _ \\ ___ _ __   ___  __ _| |_ ___  __| |
+        | |_) / _ \\ '_ \\ / _ \\/ _` | __/ _ \\/ _` |
+        |  _ <  __/ |_) |  __/ (_| | ||  __/ (_| |
+        |_| \\_\\___| .__/ \\___|\\__,_|\\__\\___|\\__,_|
+                  |_| _   _ _       _
+                     | | | (_) __ _| |__
+                     | |_| | |/ _` | '_ \\
+                     |  _  | | (_| | | | |
+                     |_| |_|_|\\__, |_| |_|
+                        ____  _|___/
+                       |  _ \\(_)_ __ ___
+                       | | | | | '_ ` _ \\
+                       | |_| | | | | | | |
+                       |____/|_|_| |_| |_|
+
+    \n",
+
+
+    "\n",
+    "Toolkit for analyzing high-dimensional repeated measurements,\n",
+    "providing functions for:\n",
+    "- Binary random data generation\n",
+    "- Differential expression analysis\n",
+    "- Gene-set tests\n",
+    "- Network meta-analysis for gene expression data\n",
+    "- Outlier detection\n"
+  )
+
+  packageStartupMessage("This is version ", utils::packageVersion(pkgname),
+                        " of ", pkgname,".")
+}
